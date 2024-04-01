@@ -2,7 +2,6 @@ import { useLoaderData, Form, redirect, useNavigate } from "react-router-dom";
 
 import * as React from "react";
 import axios from "axios";
-import PartyForm from "./PartyForm";
 import { getIdEntry } from "../../Double/fun";
 import { MasterUrl } from "../../Consts/Master/MasterUrl.const";
 import Partyformm from "./Partyformm";
